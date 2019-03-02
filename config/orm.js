@@ -3,8 +3,6 @@
 // ====================================================
 const connection = require("./connection.js");
 
-
-
 // ====================================================
 // Object for All MySQL Statement Functions
 // ====================================================
@@ -15,7 +13,6 @@ const orm = {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
@@ -26,7 +23,6 @@ const orm = {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
@@ -36,11 +32,10 @@ const orm = {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     }
-}
+};
 
 // ====================================================
 // Export ORM
